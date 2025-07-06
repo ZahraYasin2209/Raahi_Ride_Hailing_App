@@ -4,14 +4,14 @@
 
 ## Key Features
 
-- 🔐 **Role-Based Authentication** – Sign up or log in as either a **Passenger** or **Driver**
-- 📍 **Find Ride (Passenger Flow)** – Enter departure, destination, date, time, and ride type (Car/Bike/Rickshaw)
-- 📅 **Passenger Dashboard** – View scheduled rides, cancel rides, start rides, and see ride history
-- 🚘 **Driver Dashboard** – Toggle availability, view incoming ride requests, accept or reject rides
-- 💬 **In-App Messaging** – Real-time chat between passengers and drivers after matching
-- 📱 **Responsiveness** – Fully optimized for mobile, tablet, and desktop devices
-- 🌐 **Static Pages** – Home and About Us screens support PWA capabilities
-- 🔔 **Toast Notifications** – Smooth, real-time feedback for actions like ride request, login, and status updates
+- **Role-Based Authentication** – Sign up or log in as either a **Passenger** or **Driver**
+- **Find Ride (Passenger Flow)** – Enter departure, destination, date, time, and ride type (Car/Bike/Rickshaw)
+- **Passenger Dashboard** – View scheduled rides, cancel rides, start rides, and see ride history
+- **Driver Dashboard** – Toggle availability, view incoming ride requests, accept or reject rides
+- **In-App Messaging** – Real-time chat between passengers and drivers after matching
+- **Responsiveness** – Fully optimized for mobile, tablet, and desktop devices
+- **Static Pages** – Home and About Us screens support PWA capabilities
+- **Toast Notifications** – Smooth, real-time feedback for actions like ride request, login, and status updates
 
 
 ## 🛠️ Tech Stack
