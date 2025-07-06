@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .navitems {
+    @apply px-2 mx-3 inline-block text-lg font-semibold uppercase tracking-wide text-white transition-colors duration-300 cursor-pointer hover:border-2 border-emerald-500 rounded-full hover:px-2 hover:py-1;
+  }
+
+  .ride-form-label {
+    @apply block text-sm font-medium text-gray-700 dark:text-slate-100;
+  }
+
+  .ride-form-input {
+    @apply mt-1 block w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500 dark:text-white dark:bg-soft-black;
+  }
+
+  .ride-form-input[type="date"]::-webkit-calendar-picker-indicator,
+  .ride-form-input[type="time"]::-webkit-calendar-picker-indicator {
+    filter: none;
+    opacity: 1;
+  }
+
+  .dark .ride-form-input[type="date"]::-webkit-calendar-picker-indicator,
+  .dark .ride-form-input[type="time"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    opacity: 1;
+  }
+
+  .div-explore-card {
+    @apply shadow-md rounded-lg p-6 transition duration-300 transform hover:-translate-y-2 hover:shadow-lg hover:cursor-pointer dark:border dark:border-teal-900;
+  }
+
+  .h2-explore-card {
+    @apply text-xl font-bold mb-2 group-hover:text-slate-50 transition-colors duration-300 flex flex-col items-center;
+  }
+
+  .p-explore-card {
+    @apply text-gray-900 group-hover:text-slate-50 transition-colors duration-300 dark:text-slate-200;
+  }
+
+  .formHomeInput {
+    @apply w-full p-3 border border-teal-900 rounded text-lg dark:border-teal-900 dark:text-white dark:bg-soft-black;
+  }
+
+  .loader {
+    width: 45px;
+    aspect-ratio: 0.75;
+    --c: no-repeat linear-gradient(theme(colors.stone.800) 0 0);
+    background: var(--c) 0% 50%, var(--c) 50% 50%, var(--c) 100% 50%;
+    background-size: 20% 50%;
+    animation: loading 1s infinite linear;
+  }
+
+  @keyframes loading {
+    20% {
+      background-position: 0% 0%, 50% 50%, 100% 50%;
+    }
+    40% {
+      background-position: 0% 100%, 50% 0%, 100% 50%;
+    }
+    60% {
+      background-position: 0% 50%, 50% 100%, 100% 0%;
+    }
+    80% {
+      background-position: 0% 50%, 50% 50%, 100% 100%;
+    }
+  }
+}
