@@ -14,7 +14,7 @@
 - **Toast Notifications** – Smooth, real-time feedback for actions like ride request, login, and status updates
 
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Technology       | Purpose                                           |
 |------------------|---------------------------------------------------|
@@ -26,7 +26,7 @@
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the Repository
 ```bash
